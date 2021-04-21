@@ -1,0 +1,12 @@
+ //3. random number
+//   random(n)
+// -> n integer
+// <- one random number in [1-n]
+ 
+ n=parseFloat(prompt("teclea el límite del rango"));
+  let inicio= 1;
+  let fin=n;
+  
+  n=Math.random();
+  n= Math.floor(inicio+n*(fin-inicio+1));
+  console.log(n);
