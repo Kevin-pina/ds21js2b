@@ -1,0 +1,16 @@
+//2. sieve of Eratosthenes
+//   sieve(n)
+// -> n integer
+// <- the n first elements
+let n=parseInt(prompt("Ingresa un número"));
+let secuen=[];
+for(i=2;i<=n;i++)
+	secuen[i]=i;
+for(i=2;i<=n;i++)
+{
+    for(k=2;k<=n;k++)
+      secuen[i*k]="";
+}
+for(i=2;i<=n;i++)
+  if(secuen[i])
+    console.log(secuen[i]);
