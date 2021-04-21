@@ -1,0 +1,21 @@
+//1. Least common multiple
+//   lcm(a,b)
+// -> a integer
+// -> b integer
+// <- lcm 
+  let a=parseInt(prompt("ingresa un numero real"));
+  let b=parseInt(prompt("ingresa un numero real"));
+  let pprimo=2,multif=1;
+  while(pprimo<=a || pprimo<=b){
+    if(a%pprimo==0 || b%pprimo==0)
+    {
+      multif=multif*pprimo;
+      if(a%pprimo==0)
+        a=a/pprimo;
+      if(b%pprimo==0)  
+        b=b/pprimo;
+    }
+    else
+      pprimo++;
+  }
+  document.write("el minimo común múltiplo es " + multif);
