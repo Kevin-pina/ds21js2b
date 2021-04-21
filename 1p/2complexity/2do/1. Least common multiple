@@ -18,4 +18,4 @@
     else
       pprimo++;
   }
-  document.write("el minimo común múltiplo es " + multif);
+  console.log("el minimo común múltiplo es " + multif);
