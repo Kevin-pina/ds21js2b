@@ -1,0 +1,10 @@
+//4. random name
+//   randomName()
+// -> 
+// <- one random name
+// ie name371
+  let inicio= 65;
+  let fin= 90;
+  let n= String.fromCharCode(Math.floor(inicio+(Math.random())*(fin-inicio+1)))+String.fromCharCode(Math.floor(inicio+(Math.random())*(fin-inicio+1)))+String.fromCharCode(Math.floor(inicio+(Math.random())*(fin-inicio+1)));
+  let letra=(n);
+  console.log("name "+n);
