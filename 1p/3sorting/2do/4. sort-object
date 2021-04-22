@@ -1,0 +1,14 @@
+  //4. sort - use JS Array.sort implementation
+//   sort(o)
+// -> o an object containing random names
+// <- the random names sorted
+// verify is sorted
+  
+  
+  let O={X:[]},letra;
+function randomn(){  
+return letra = String.fromCharCode(Math.floor(65+(Math.random()*25)));
+}
+for(i=0; i<5; i++)
+	O.X.push(randomn()+randomn());  
+  console.log(O.X.sort());
