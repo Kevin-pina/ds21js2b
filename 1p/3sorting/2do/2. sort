@@ -8,4 +8,4 @@ let d=[];
 for(i=0; i<10; i++){
 d[i]=Math.floor(1+(Math.random()*20));
 } 
-document.write(d.sort((a,b)=>a-b));  
+console.log(d.sort((a,b)=>a-b));  
