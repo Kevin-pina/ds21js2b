@@ -1,0 +1,20 @@
+function busqueda(nomal, nom){
+    for(let i = 0; i < nomal.length; i++){
+        if(nomal[i] === nom){
+            return i
+        }
+    }
+    return -1
+}
+let nomal=[],letra;  
+function randomn(){  
+return letra = String.fromCharCode(Math.floor(65+(Math.random()*25)));}
+
+for(i=0;i<5;i++)  
+nomal[i]=randomn()+randomn();
+  
+let nom=prompt("Busca un nombre de "+nomal);  
+if(busqueda(nomal,nom)!=-1){  
+document.write(nom+" se encuentra en la posición: "+busqueda(nomal,nom)); }
+else
+  document.write(busqueda(nomal,nom));
