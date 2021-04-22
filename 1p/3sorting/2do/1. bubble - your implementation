@@ -1,0 +1,27 @@
+//1. bubble - your implementation 
+//   sort(d)
+// -> d an array of random numbers
+// <- the random numbers sorted
+// verify is sorted
+
+let numal=[];
+  for(i=0;i<10;i++)
+{
+  let num = Math.random();
+ num  = 50 + num *(100 - 50 +1);
+    num = Math.floor(num);
+  numal[i]=num;
+}
+console.log("Números aleatorios:");
+  console.log(numal);  
+ for (k = 1; k < numal.length; k++) {
+        for (i = 0; i < (numal.length - k); i++) {
+            if (numal[i] > numal[i + 1]) {
+                aux =numal[i];
+                numal[i] = numal[i + 1];
+                numal[i + 1] = aux;
+            }
+        }
+    }
+  console.log("Números aleatorios ordenados:");
+  console.log(numal);
