@@ -1,0 +1,16 @@
+//3. map
+//   attach(n)//wrap the method 'set'
+// -> n random name
+// <- random name added
+// alone or proto
+ 
+function randomn(){  
+  return letra = String.fromCharCode(Math.floor(65+(Math.random()*25)));}
+  
+  let añadir=new Map();
+
+for(i=0;i<5;i++)
+	añadir.set(i,randomn()+randomn())
+  
+for (const valor of añadir) 
+	console.log(valor);
