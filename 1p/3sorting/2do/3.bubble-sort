@@ -1,0 +1,27 @@
+//3. bubble - your implementation 
+//   sort(o)
+// -> o an object containing random names: either an array of objects or an object of objects
+// <- the random names sorted
+// verify is sorted
+
+let O={X:[]},letra;
+function randomn(){  
+return letra = String.fromCharCode(Math.floor(65+(Math.random()*25)));
+}
+for(i=0; i<5; i++)
+	O.X.push(randomn()+randomn());   
+
+for (k = 1; k < O.X.length; k++) 
+{
+	for (i = 0; i < O.X.length - k; i++) 
+  {
+  	if (O.X[i] > O.X[i + 1]) 
+    {
+    	aux = O.X[i];
+      O.X[i] = O.X[i + 1];
+      O.X[i + 1] = aux;
+    }
+  }
+}  
+console.log(O.X);  
+  
