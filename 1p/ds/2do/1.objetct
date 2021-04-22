@@ -1,0 +1,14 @@
+  //1. object
+//   attach(n)
+// -> n random name
+// <- random name added
+
+function randomn(){  
+  return letra = String.fromCharCode(Math.floor(65+(Math.random()*25)));}
+  let a = {x:[]}
+const fn = (k) => a.x.push(k)
+
+for(i=0;i<5;i++)
+	fn(randomn()+randomn())
+console.log(a)
+  
