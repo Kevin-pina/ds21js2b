@@ -55,5 +55,5 @@ arbol_in.insert(3);
 arbol_in.insert(99);
 let n = 10;  
 arbol_in.insert(n);
-console.log("Inorder traversal: ");
+console.log("Preorder traversal: ");
 preOrder(arbol_in.root); 
