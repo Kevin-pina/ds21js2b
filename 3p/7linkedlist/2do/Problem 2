@@ -14,9 +14,7 @@ class  Agregar{
     		return this.final - this.inicio;
     
     };
-
 };
-  
 const add= new Agregar();
 add.insertar(8);
 add.insertar(5);
