@@ -1,0 +1,7 @@
+ let arre=[8,7,5,6]
+ 
+ console.log(arre);
+   arre.pop();
+console.log(arre);
+
+ 
