@@ -1,0 +1,7 @@
+ let arre=[8,7,5,6]
+ let v= 4;
+ console.log(arre);
+   arre.unshift( v);
+console.log(arre);
+
+ 
