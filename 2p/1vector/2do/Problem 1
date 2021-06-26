@@ -1,0 +1,7 @@
+  let v = 3;
+  let p = 0;
+   let arre=[1,5,8];
+  console.log(arre);
+  arre.splice(p,0,v);
+  console.log(arre);
+  
